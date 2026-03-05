@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: test-system-02-testapi
+  namespace: test-system-02
+spec:
+  selector:
+    app: test-system-02-testapi
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
+  type: ClusterIP

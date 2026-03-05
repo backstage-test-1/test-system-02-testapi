@@ -1,0 +1,7 @@
+site_name: testapi
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core

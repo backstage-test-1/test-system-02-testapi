@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-system-02-testapi
+  description: test
+  annotations:
+    github.com/project-slug: backstage-test-1/test-system-02-testapi
+    backstage.io/kubernetes-id: test-system-02-testapi
+    argocd/app-name: test-system-02-testapi
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: group:default/devops
+  lifecycle: experimental
+  system: test-system-02
