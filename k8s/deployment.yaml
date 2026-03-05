@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: test-system-02-testapi
-          image: ghcr.io/backstage-test-1/test-system-02-testapi:latest
+          image: ghcr.io/backstage-test-1/test-system-02-testapi:b6a663ea779d436aa05c238d37743f2e89531e76
           ports:
             - containerPort: 3000
           env:
